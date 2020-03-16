@@ -35,6 +35,17 @@ class MyTestCase(unittest.TestCase):
         num_devices = len(self.report.devices_df.index)
         self.assertEqual(3, num_devices, "Incorrect number of devices")
 
+    # How many ads were played on this route?
+    # Which ads were played?
+    # How many times were each ad played?
+    # What trucks played ads?
+    # How many ads were played per hour?
+    # How long was each ad played total?
+    # How many ads did each truck play?
+    # How many times did each truck play each ad?
+    # How many times how many times did each ad play during each hour of the day?
+    #   ie. "ad1" played 100 times between 9am and 10am, and 20 times 10am-11am
+
 
 if __name__ == '__main__':
     unittest.main()

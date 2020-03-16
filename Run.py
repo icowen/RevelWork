@@ -8,8 +8,8 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 class MyTestCase(unittest.TestCase):
     def test_GET_DATA(self):
-        start = '2/1/2020'
-        end = '2/7/2020'
+        start = '2/24/2020'     # dates for week 8
+        end = '2/28/2020'
         filename = 'data/cet/2020Week8.xlsx'
         report = GetRevelData(start, end, filename)
         self.assertIsNotNone(report.revel_df)
